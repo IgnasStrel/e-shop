@@ -11,7 +11,7 @@ const About = () => {
           <img
             className="d-block w-100"
             src={OneProduct.imageUrl}
-            alt={OneProduct.name}
+            style={{ height: "53rem" }}
           />
           <Carousel.Caption>
             <h3>{OneProduct.name}</h3>
